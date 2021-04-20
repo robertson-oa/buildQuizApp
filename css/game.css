@@ -9,14 +9,14 @@
   
   .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    box-shadow: 0 0.4rem 1.4rem 0 black;
     transform: translateY(-0.1rem);
     transition: transform 150ms;
   }
   
   .choice-prefix {
     padding: 1.5rem 2.5rem;
-    background-color: #56a5eb;
+    background-color: #001b33;
     color: white;
   }
   
@@ -32,8 +32,7 @@
   .incorrect {
     background-color: #dc3545;
   }
-  
-  /* HUD */
+
   
   #hud {
     display: flex;
@@ -52,13 +51,13 @@
   #progressBar {
     width: 20rem;
     height: 4rem;
-    border: 0.3rem solid #56a5eb;
+    border: 0.3rem solid #001b33;
     margin-top: 1.5rem;
   }
   
   #progressBarFull {
     height: 3.4rem;
-    background-color: #56a5eb;
+    background-color: #001b33;
     width: 0%;
   }
   
@@ -66,7 +65,7 @@
   #loader {
     border: 1.6rem solid white;
     border-radius: 50%;
-    border-top: 1.6rem solid #56a5eb;
+    border-top: 1.6rem solid #001b33;
     width: 12rem;
     height: 12rem;
     animation: spin 2s linear infinite;
